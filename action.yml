@@ -30,7 +30,7 @@ inputs:
     description: 'Path where test artifacts should be stored.'
   useHostNetwork:
     required: false
-    default: false
+    default: 'false'
     description: 'Initialises Docker using the host network.'
   sshAgent:
     required: false
